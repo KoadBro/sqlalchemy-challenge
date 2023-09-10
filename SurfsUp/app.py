@@ -1,7 +1,10 @@
 # Import the dependencies.
+from flask import
 
+app = Flask(__name__)
 
-
+@app.route('/')
+def welcome():
 #################################################
 # Database Setup
 #################################################
